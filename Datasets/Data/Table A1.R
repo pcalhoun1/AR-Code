@@ -33,5 +33,6 @@ contTable$multiplier[contTable$dataset == "airquality"] <- "10^2"
 
 str(contData$housing)
 
+# Table A1
 bind_rows(binTable, contTable)
 
